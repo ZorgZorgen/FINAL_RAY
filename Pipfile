@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-phonenumber-field = "*"
+tldextract = "*"
+regex = "*"
+social-auth-app-django = "*"
+django-dirtyfields = "*"
+djangorestframework-simplejwt = "*"
+phonenumbers = "*"
+django-rest-multiple-models = "*"
+django-environ = "*"
+django-split-settings = "*"
+gunicorn = "*"
+django-heroku = "*"
+
+[dev-packages]
+freezegun = "*"
+sphinx = "*"
+bump2version = "*"
+tox = "*"
+
+[requires]
+python_version = "3.8"
